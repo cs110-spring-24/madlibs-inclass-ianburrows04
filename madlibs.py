@@ -1,1 +1,12 @@
-# TODO Create your inputs, variables, and add your story here!
+noun = input("Enter a noun: ")
+adjective = input("Enter an adjective: ")
+verb = input("Enter a verb ending in -ing: ")
+name = input("Enter a name: ")
+noun2 = input("Enter another noun: ")
+verb2 = input("Enter another verb, this time ending in -ed: ")
+tvshow = input("Enter a tv show: ")
+food = input("Enter a type of food: ")
+drink = input("Enter a type of drink: ")
+name2 = input("Enter another name: ")
+
+print(f"{name} was {verb} while they watched {tvshow}. They drank {drink} out of a {adjective} cup and ate {food}. On the TV, {name} saw a {noun} and a {noun2}, then told their friend {name2} about it. {name2} then {verb2}.")
